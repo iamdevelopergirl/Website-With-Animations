@@ -1,0 +1,43 @@
+.button-component{
+    border: 1px solid #ACACAC;
+    padding: 18px 26px;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 1;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+    font-family: Menlo;
+}
+
+.green{  
+    background-color: #3CD17F;
+    border-color: #3CD17F;
+    color: #ffffff;
+}
+
+.white{
+    background-color: transparent;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.black {
+    background-color: #ffffff;
+    color:#333333;
+    border-color: #333333;
+}
+
+button.green:hover{
+    background-color: hsl(144, 45%, 98%);
+    color : black;
+}
+
+button.white:hover{
+    background-color: hsl(144, 45%, 98%);
+    color : black
+}
+
+button.black:hover{
+    background-color: #333333;
+    color :hsl(144, 45%, 98%);
+}

@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+:root {
+  --animate-duration: 1s;
+  --animate-delay: 1s;
+  --animate-repeat: 1;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img{
+  display: block;
+}
+
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+li{
+  display: list-item;
+  text-align: -webkit-match-parent;
+  z-index: 1;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
