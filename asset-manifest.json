@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/Website-With-Animations/static/css/main.1b477635.chunk.css",
+    "main.js": "/Website-With-Animations/static/js/main.945b625f.chunk.js",
+    "main.js.map": "/Website-With-Animations/static/js/main.945b625f.chunk.js.map",
+    "runtime-main.js": "/Website-With-Animations/static/js/runtime-main.9b646214.js",
+    "runtime-main.js.map": "/Website-With-Animations/static/js/runtime-main.9b646214.js.map",
+    "static/js/2.e4fc82f0.chunk.js": "/Website-With-Animations/static/js/2.e4fc82f0.chunk.js",
+    "static/js/2.e4fc82f0.chunk.js.map": "/Website-With-Animations/static/js/2.e4fc82f0.chunk.js.map",
+    "static/js/3.f93102af.chunk.js": "/Website-With-Animations/static/js/3.f93102af.chunk.js",
+    "static/js/3.f93102af.chunk.js.map": "/Website-With-Animations/static/js/3.f93102af.chunk.js.map",
+    "index.html": "/Website-With-Animations/index.html",
+    "static/css/main.1b477635.chunk.css.map": "/Website-With-Animations/static/css/main.1b477635.chunk.css.map",
+    "static/js/2.e4fc82f0.chunk.js.LICENSE.txt": "/Website-With-Animations/static/js/2.e4fc82f0.chunk.js.LICENSE.txt",
+    "static/media/bg-element-01.efca22fc.png": "/Website-With-Animations/static/media/bg-element-01.efca22fc.png",
+    "static/media/bg-element-02.b261e890.png": "/Website-With-Animations/static/media/bg-element-02.b261e890.png",
+    "static/media/bg-element-03.63622ec4.png": "/Website-With-Animations/static/media/bg-element-03.63622ec4.png",
+    "static/media/bg-element-04.1ba1b2ae.png": "/Website-With-Animations/static/media/bg-element-04.1ba1b2ae.png",
+    "static/media/bg-element-05.dc5c0409.png": "/Website-With-Animations/static/media/bg-element-05.dc5c0409.png",
+    "static/media/bg-element-06.36056f9b.png": "/Website-With-Animations/static/media/bg-element-06.36056f9b.png",
+    "static/media/case-study-01.6adbe012.png": "/Website-With-Animations/static/media/case-study-01.6adbe012.png",
+    "static/media/case-study-02.773f5fa5.jpeg": "/Website-With-Animations/static/media/case-study-02.773f5fa5.jpeg",
+    "static/media/dynamic-bg-01.cee3a994.png": "/Website-With-Animations/static/media/dynamic-bg-01.cee3a994.png",
+    "static/media/enterprise.38c8c324.svg": "/Website-With-Animations/static/media/enterprise.38c8c324.svg",
+    "static/media/featured_shape.ebad1fec.png": "/Website-With-Animations/static/media/featured_shape.ebad1fec.png",
+    "static/media/home-image-01.66a7c6bc.png": "/Website-With-Animations/static/media/home-image-01.66a7c6bc.png",
+    "static/media/logo_white.3bd08d06.svg": "/Website-With-Animations/static/media/logo_white.3bd08d06.svg",
+    "static/media/loyalty.e8d00ea0.svg": "/Website-With-Animations/static/media/loyalty.e8d00ea0.svg",
+    "static/media/nil.57479a81.svg": "/Website-With-Animations/static/media/nil.57479a81.svg",
+    "static/media/pricing.37ef9830.svg": "/Website-With-Animations/static/media/pricing.37ef9830.svg",
+    "static/media/professional.8f75c9a7.svg": "/Website-With-Animations/static/media/professional.8f75c9a7.svg",
+    "static/media/standard.b9066b5f.svg": "/Website-With-Animations/static/media/standard.b9066b5f.svg",
+    "static/media/support.b4c7c8d7.svg": "/Website-With-Animations/static/media/support.b4c7c8d7.svg",
+    "static/media/container.css": "/Website-With-Animations/static/media/tick-image.c3103f45.svg",
+    "static/media/vid-conf.fba56001.mp4": "/Website-With-Animations/static/media/vid-conf.fba56001.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b646214.js",
+    "static/js/2.e4fc82f0.chunk.js",
+    "static/css/main.1b477635.chunk.css",
+    "static/js/main.945b625f.chunk.js"
+  ]
+}
