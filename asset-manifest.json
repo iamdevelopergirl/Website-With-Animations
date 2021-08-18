@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Website-With-Animations/static/css/main.859d3a81.chunk.css",
+    "main.css": "/Website-With-Animations/static/css/main.a5db62c1.chunk.css",
     "main.js": "/Website-With-Animations/static/js/main.a2484d34.chunk.js",
     "main.js.map": "/Website-With-Animations/static/js/main.a2484d34.chunk.js.map",
     "runtime-main.js": "/Website-With-Animations/static/js/runtime-main.4d69de96.js",
@@ -10,7 +10,7 @@
     "static/js/3.00ff7377.chunk.js": "/Website-With-Animations/static/js/3.00ff7377.chunk.js",
     "static/js/3.00ff7377.chunk.js.map": "/Website-With-Animations/static/js/3.00ff7377.chunk.js.map",
     "index.html": "/Website-With-Animations/index.html",
-    "static/css/main.859d3a81.chunk.css.map": "/Website-With-Animations/static/css/main.859d3a81.chunk.css.map",
+    "static/css/main.a5db62c1.chunk.css.map": "/Website-With-Animations/static/css/main.a5db62c1.chunk.css.map",
     "static/js/2.e4fc82f0.chunk.js.LICENSE.txt": "/Website-With-Animations/static/js/2.e4fc82f0.chunk.js.LICENSE.txt",
     "static/media/bg-element-01.efca22fc.png": "/Website-With-Animations/static/media/bg-element-01.efca22fc.png",
     "static/media/bg-element-02.b261e890.png": "/Website-With-Animations/static/media/bg-element-02.b261e890.png",
@@ -51,7 +51,7 @@
   "entrypoints": [
     "static/js/runtime-main.4d69de96.js",
     "static/js/2.e4fc82f0.chunk.js",
-    "static/css/main.859d3a81.chunk.css",
+    "static/css/main.a5db62c1.chunk.css",
     "static/js/main.a2484d34.chunk.js"
   ]
 }
