@@ -1,5 +1,45 @@
 import stickyVideo from './images/vid-conf.mp4';
 import './styles/container.css';
+import img1 from './images/para5/image1.svg'
+import img2 from './images/para5/image2.svg'
+
+
+const isInViewport = function (elem, removePadding=false) {
+    const bounding = elem.getBoundingClientRect();
+    return (
+        bounding.top >= 0 &&
+        bounding.left >= 0 &&
+        bounding.bottom <= ( !removePadding ? window.innerHeight || document.documentElement.clientHeight : window.innerHeight + 300 || document.documentElement.clientHeight + 300) &&
+        bounding.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+};
+
+setInterval(() => {
+    const scrollNav = document.getElementsByClassName("scroll-nav")[0];
+    const img_bx = document.getElementsByClassName("img-bx");
+    const firstImageBox = isInViewport(img_bx[0], true);
+    if(firstImageBox){
+        //img_bx[0].classList.add("active");
+        scrollNav.childNodes[0].classList.add("active");
+        scrollNav.childNodes[1].classList.remove("active");
+        scrollNav.childNodes[2].classList.remove("active");
+    }
+    const secondImageBox = isInViewport(img_bx[1]);
+    if(secondImageBox){
+        //img_bx[1].classList.add("active");
+        scrollNav.childNodes[2].classList.add("active");
+        scrollNav.childNodes[0].classList.remove("active");
+        scrollNav.childNodes[1].classList.remove("active");
+    }
+    const videoBox = isInViewport(document.getElementById("sticky_video"));
+    if(videoBox){
+        //document.getElementById("sticky_video").classList.add("active");
+        scrollNav.childNodes[1].classList.add("active");
+        scrollNav.childNodes[0].classList.remove("active");
+        scrollNav.childNodes[2].classList.remove("active");
+    }
+});
+
 
 function ImageTextStickyComponent(){
     return(
@@ -17,12 +57,13 @@ function ImageTextStickyComponent(){
                             Data rich engagement throughout
                         </li>
                     </ul>
+                    <object className="image1" type="image/svg+xml" data={img1}>svg-animation</object>
                 </div>
-                <div className="video">
+                <div className="video" id="sticky_video">
                     <p>
                     Through our video conferencing tool, you are able to bring together your team or offer collaboration tools to your users.
                     </p>
-                    <video className="lazy">
+                    <video className="lazy" data-poster="" data-src={stickyVideo}>
                         <source src={stickyVideo} type="vide0/mp4"></source>
                     </video>
                 </div>
@@ -38,6 +79,7 @@ function ImageTextStickyComponent(){
                             Customer service and feedback
                         </li>
                     </ul>
+                    <object className="image1" type="image/svg+xml" data={img2}>svg-animation</object>
                 </div>
             </div>
             <div className="txt">
@@ -45,6 +87,7 @@ function ImageTextStickyComponent(){
                     Create a better view of your business with our data driven dashboards
                 </h3>
                 <div className="scroll-nav">
+                    <a href="#1">Stay up to date with the feed</a>
                     <a href="#1">Invite and view your team members</a>
                     <a href="#1">Keep track of projects</a>
                 </div>

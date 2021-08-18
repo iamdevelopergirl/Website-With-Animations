@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
       var videoObserver = new IntersectionObserver(function(entries, observer) {
         entries.forEach(function(video) {
           if (video.isIntersecting) {
-            video.poster = video.dataset.poster;
+            video.poster = video.target.dataset.poster;
             for (var source in video.target.children) {
               var videoSource = video.target.children[source];
               if (typeof videoSource.tagName === "string" && videoSource.tagName === "SOURCE") {
