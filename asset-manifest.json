@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Website-With-Animations/static/css/main.a5db62c1.chunk.css",
-    "main.js": "/Website-With-Animations/static/js/main.a2484d34.chunk.js",
-    "main.js.map": "/Website-With-Animations/static/js/main.a2484d34.chunk.js.map",
-    "runtime-main.js": "/Website-With-Animations/static/js/runtime-main.4d69de96.js",
-    "runtime-main.js.map": "/Website-With-Animations/static/js/runtime-main.4d69de96.js.map",
+    "main.js": "/Website-With-Animations/static/js/main.4bdedbab.chunk.js",
+    "main.js.map": "/Website-With-Animations/static/js/main.4bdedbab.chunk.js.map",
+    "runtime-main.js": "/Website-With-Animations/static/js/runtime-main.9b646214.js",
+    "runtime-main.js.map": "/Website-With-Animations/static/js/runtime-main.9b646214.js.map",
     "static/js/2.e4fc82f0.chunk.js": "/Website-With-Animations/static/js/2.e4fc82f0.chunk.js",
     "static/js/2.e4fc82f0.chunk.js.map": "/Website-With-Animations/static/js/2.e4fc82f0.chunk.js.map",
-    "static/js/3.00ff7377.chunk.js": "/Website-With-Animations/static/js/3.00ff7377.chunk.js",
-    "static/js/3.00ff7377.chunk.js.map": "/Website-With-Animations/static/js/3.00ff7377.chunk.js.map",
+    "static/js/3.f93102af.chunk.js": "/Website-With-Animations/static/js/3.f93102af.chunk.js",
+    "static/js/3.f93102af.chunk.js.map": "/Website-With-Animations/static/js/3.f93102af.chunk.js.map",
     "index.html": "/Website-With-Animations/index.html",
     "static/css/main.a5db62c1.chunk.css.map": "/Website-With-Animations/static/css/main.a5db62c1.chunk.css.map",
     "static/js/2.e4fc82f0.chunk.js.LICENSE.txt": "/Website-With-Animations/static/js/2.e4fc82f0.chunk.js.LICENSE.txt",
@@ -46,12 +46,17 @@
     "static/media/standard.b9066b5f.svg": "/Website-With-Animations/static/media/standard.b9066b5f.svg",
     "static/media/support.b4c7c8d7.svg": "/Website-With-Animations/static/media/support.b4c7c8d7.svg",
     "static/media/container.css": "/Website-With-Animations/static/media/tick-image.c3103f45.svg",
-    "static/media/vid-conf.fba56001.mp4": "/Website-With-Animations/static/media/vid-conf.fba56001.mp4"
+    "static/media/video1.44c73eef.mp4": "/Website-With-Animations/static/media/video1.44c73eef.mp4",
+    "static/media/video1.45312e56.mp4": "/Website-With-Animations/static/media/video1.45312e56.mp4",
+    "static/media/video1.fba56001.mp4": "/Website-With-Animations/static/media/video1.fba56001.mp4",
+    "static/media/video2.b24f46d4.mp4": "/Website-With-Animations/static/media/video2.b24f46d4.mp4",
+    "static/media/video3.fea81cd7.mp4": "/Website-With-Animations/static/media/video3.fea81cd7.mp4",
+    "static/media/video4.ceb6b4e6.mp4": "/Website-With-Animations/static/media/video4.ceb6b4e6.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.4d69de96.js",
+    "static/js/runtime-main.9b646214.js",
     "static/js/2.e4fc82f0.chunk.js",
     "static/css/main.a5db62c1.chunk.css",
-    "static/js/main.a2484d34.chunk.js"
+    "static/js/main.4bdedbab.chunk.js"
   ]
 }
