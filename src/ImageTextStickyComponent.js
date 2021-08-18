@@ -1,7 +1,7 @@
-import stickyVideo from './images/vid-conf.mp4';
 import './styles/container.css';
 import img1 from './images/para5/image1.svg'
 import img2 from './images/para5/image2.svg'
+import video1 from './videos/stickylayout/video1.mp4';
 
 
 const isInViewport = function (elem, removePadding=false) {
@@ -63,8 +63,16 @@ function ImageTextStickyComponent(){
                     <p>
                     Through our video conferencing tool, you are able to bring together your team or offer collaboration tools to your users.
                     </p>
-                    <video className="lazy" data-poster="" data-src={stickyVideo}>
-                        <source src={stickyVideo} type="vide0/mp4"></source>
+                    <video width="100%" 
+                        autoPlay={true} 
+                        muted={true} 
+                        playsInline={true} 
+                        className="lazy"
+                        src={video1}
+                        data-poster="../images/bg-element-01.png"
+                        data-src={video1}>
+                            <source src={video1} data-src={video1} type="video/mp4">
+                            </source>
                     </video>
                 </div>
                 <div className="img-bx">

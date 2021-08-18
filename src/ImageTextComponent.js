@@ -3,6 +3,11 @@ import ImageWrapperLayout1 from './ImageWrapperComponent/ImageLayout1.js';
 import ImageWrapperLayout2 from './ImageWrapperComponent/ImageLayout2.js';
 import ImageWrapperLayout3 from './ImageWrapperComponent/ImageLayout3.js';
 import ImageWrapperLayout4 from './ImageWrapperComponent/ImageLayout4.js';
+import video1 from './videos/layout4/video1.mp4';
+import cvideo1 from './videos/order_change_layout/video1.mp4';
+import cvideo2 from './videos/order_change_layout/video2.mp4';
+import cvideo3 from './videos/order_change_layout/video3.mp4';
+import cvideo4 from './videos/order_change_layout/video4.mp4';
 
 
 function _getLayoutImage(props){
@@ -18,7 +23,19 @@ function _getLayoutImage(props){
             wrapperElement = <ImageWrapperLayout3 layout={props.layout}/>
             break;
         case "layout_04":
-            wrapperElement = <ImageWrapperLayout4 layout={props.layout}/>
+            wrapperElement = <ImageWrapperLayout4 layout={props.layout} videoF={video1}/>
+            break;
+        case "layout_05":
+            wrapperElement = <ImageWrapperLayout4 layout={props.layout} videoF={cvideo1}/>
+            break;
+        case "layout_06":
+            wrapperElement = <ImageWrapperLayout4 layout={props.layout} videoF={cvideo2}/>
+            break;
+        case "layout_07":
+            wrapperElement = <ImageWrapperLayout4 layout={props.layout} videoF={cvideo3}/>
+            break;
+        case "layout_08":
+            wrapperElement = <ImageWrapperLayout4 layout={props.layout} videoF={cvideo4}/>
             break;
         default:
             wrapperElement = <ImageWrapperLayout1 layout={props.layout}/>
