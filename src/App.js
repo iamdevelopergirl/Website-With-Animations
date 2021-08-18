@@ -113,7 +113,7 @@ function App() {
     <SectionWith2ContainerComponent/>
     <PlatformComponent/>
     <ImageTextComponent order="" layout="layout_01" strings={layoutStrings[0]["layout_01"]}/>
-    <ImageTextComponent order=""layout="layout_02" strings={layoutStrings[1]["layout_02"]}/>
+    <ImageTextComponent order="" layout="layout_02" strings={layoutStrings[1]["layout_02"]}/>
     <ImageTextComponent order="" layout="layout_03" strings={layoutStrings[2]["layout_03"]}/>
     <ImageTextComponent order="" layout="layout_04" strings={layoutStrings[3]["layout_04"]}/>
     <DynamicBgComponent/>
