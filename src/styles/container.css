@@ -1055,7 +1055,7 @@ video{
 
 
 @media (min-width: 1201px) {
-    .case_study .change_order {
+    .case_study.change_order {
         padding-left: 10%;
         padding-right: 0;
     }
