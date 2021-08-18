@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Website-With-Animations/static/css/main.1b477635.chunk.css",
-    "main.js": "/Website-With-Animations/static/js/main.945b625f.chunk.js",
-    "main.js.map": "/Website-With-Animations/static/js/main.945b625f.chunk.js.map",
-    "runtime-main.js": "/Website-With-Animations/static/js/runtime-main.9b646214.js",
-    "runtime-main.js.map": "/Website-With-Animations/static/js/runtime-main.9b646214.js.map",
+    "main.css": "/Website-With-Animations/static/css/main.859d3a81.chunk.css",
+    "main.js": "/Website-With-Animations/static/js/main.1f7b9b21.chunk.js",
+    "main.js.map": "/Website-With-Animations/static/js/main.1f7b9b21.chunk.js.map",
+    "runtime-main.js": "/Website-With-Animations/static/js/runtime-main.4d69de96.js",
+    "runtime-main.js.map": "/Website-With-Animations/static/js/runtime-main.4d69de96.js.map",
     "static/js/2.e4fc82f0.chunk.js": "/Website-With-Animations/static/js/2.e4fc82f0.chunk.js",
     "static/js/2.e4fc82f0.chunk.js.map": "/Website-With-Animations/static/js/2.e4fc82f0.chunk.js.map",
-    "static/js/3.f93102af.chunk.js": "/Website-With-Animations/static/js/3.f93102af.chunk.js",
-    "static/js/3.f93102af.chunk.js.map": "/Website-With-Animations/static/js/3.f93102af.chunk.js.map",
+    "static/js/3.00ff7377.chunk.js": "/Website-With-Animations/static/js/3.00ff7377.chunk.js",
+    "static/js/3.00ff7377.chunk.js.map": "/Website-With-Animations/static/js/3.00ff7377.chunk.js.map",
     "index.html": "/Website-With-Animations/index.html",
-    "static/css/main.1b477635.chunk.css.map": "/Website-With-Animations/static/css/main.1b477635.chunk.css.map",
+    "static/css/main.859d3a81.chunk.css.map": "/Website-With-Animations/static/css/main.859d3a81.chunk.css.map",
     "static/js/2.e4fc82f0.chunk.js.LICENSE.txt": "/Website-With-Animations/static/js/2.e4fc82f0.chunk.js.LICENSE.txt",
     "static/media/bg-element-01.efca22fc.png": "/Website-With-Animations/static/media/bg-element-01.efca22fc.png",
     "static/media/bg-element-02.b261e890.png": "/Website-With-Animations/static/media/bg-element-02.b261e890.png",
@@ -24,6 +24,18 @@
     "static/media/enterprise.38c8c324.svg": "/Website-With-Animations/static/media/enterprise.38c8c324.svg",
     "static/media/featured_shape.ebad1fec.png": "/Website-With-Animations/static/media/featured_shape.ebad1fec.png",
     "static/media/home-image-01.66a7c6bc.png": "/Website-With-Animations/static/media/home-image-01.66a7c6bc.png",
+    "static/media/image1.6aacad92.svg": "/Website-With-Animations/static/media/image1.6aacad92.svg",
+    "static/media/image1.cd39ac2d.svg": "/Website-With-Animations/static/media/image1.cd39ac2d.svg",
+    "static/media/image1.e6ba450b.svg": "/Website-With-Animations/static/media/image1.e6ba450b.svg",
+    "static/media/image2.75522edf.svg": "/Website-With-Animations/static/media/image2.75522edf.svg",
+    "static/media/image2.a2ba4aeb.svg": "/Website-With-Animations/static/media/image2.a2ba4aeb.svg",
+    "static/media/image2.d91f9203.svg": "/Website-With-Animations/static/media/image2.d91f9203.svg",
+    "static/media/image3.2c33b514.svg": "/Website-With-Animations/static/media/image3.2c33b514.svg",
+    "static/media/image3.6cc8abc5.svg": "/Website-With-Animations/static/media/image3.6cc8abc5.svg",
+    "static/media/image3.b5f7e933.png": "/Website-With-Animations/static/media/image3.b5f7e933.png",
+    "static/media/image4.afa3eebb.svg": "/Website-With-Animations/static/media/image4.afa3eebb.svg",
+    "static/media/image5.ae9d7a99.svg": "/Website-With-Animations/static/media/image5.ae9d7a99.svg",
+    "static/media/image6.93d1dde8.svg": "/Website-With-Animations/static/media/image6.93d1dde8.svg",
     "static/media/logo_white.3bd08d06.svg": "/Website-With-Animations/static/media/logo_white.3bd08d06.svg",
     "static/media/loyalty.e8d00ea0.svg": "/Website-With-Animations/static/media/loyalty.e8d00ea0.svg",
     "static/media/nil.57479a81.svg": "/Website-With-Animations/static/media/nil.57479a81.svg",
@@ -35,9 +47,9 @@
     "static/media/vid-conf.fba56001.mp4": "/Website-With-Animations/static/media/vid-conf.fba56001.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.9b646214.js",
+    "static/js/runtime-main.4d69de96.js",
     "static/js/2.e4fc82f0.chunk.js",
-    "static/css/main.1b477635.chunk.css",
-    "static/js/main.945b625f.chunk.js"
+    "static/css/main.859d3a81.chunk.css",
+    "static/js/main.1f7b9b21.chunk.js"
   ]
 }
