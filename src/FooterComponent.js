@@ -12,8 +12,8 @@ const listItems = [
 ]
 
 function _getList(ul){
-    let options = ul.map(element => {
-        const liElement = <li className="link_item">
+    let options = ul.map((element, index) => {
+        const liElement = <li className="link_item" key={index}>
                 <a href="#1" className="link">{element}</a>
             </li>
         return liElement;
@@ -27,7 +27,7 @@ function _getList(ul){
 
 function getMiddleFooter(){
     const middleElement = listItems.map((_, index) => {
-        let columnElements = <div className="column">
+        let columnElements = <div className="column" key={index}>
             {_getList(listItems[index][index])}
         </div>
         return columnElements;
@@ -52,7 +52,7 @@ function FooterComponent(){
                         <p className="title">
                             Sign up for developer updates
                         </p>
-                        <form action method="post">
+                        <form method="post">
                             <InputComponent name="email" type="email"/>
                             <InputComponent name="sign_up" type="hidden" value="yes_save"/>
                             <InputComponent type="submit" value="Sign up"/>

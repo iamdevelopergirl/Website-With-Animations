@@ -1,4 +1,4 @@
-import Header from './HeaderComponent'
+import Header from './components/header/header.js';
 import './App.css';
 import SectionWith2ContainerComponent from './SectionWith2ContainerComponent';
 import PlatformComponent from './PlatformComponent';

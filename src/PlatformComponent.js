@@ -1,5 +1,5 @@
 import './styles/container.css';
-import ButtonComponent from './ButtonComponent';
+import Button from './components/common/button.js';
 import bgElement01 from './images/bg-element-01.png';
 import bgElement02 from './images/bg-element-02.png';
 import bgElement03 from './images/bg-element-03.png';
@@ -64,7 +64,7 @@ function PlatformComponent(){
             <div className="texts">
                 <p>Platform</p>
                 <h3>Sell digital or physical inventory, with configurable or simple attributes, in a way that suits your business.</h3>
-                <ButtonComponent name="Explore the platform &emsp;>" className="white"/>
+                <Button name="Explore the platform &emsp;>" className="white"/>
             </div>
         </section>
     )

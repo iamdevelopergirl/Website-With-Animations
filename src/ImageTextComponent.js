@@ -45,8 +45,8 @@ function _getLayoutImage(props){
 }
 
 function _getList(ul){
-    let options = ul.map(element => {
-        const liElement = <li>{element}</li>
+    let options = ul.map((element, index) => {
+        const liElement = <li key={index}>{element}</li>
         return liElement;
     });
     return(

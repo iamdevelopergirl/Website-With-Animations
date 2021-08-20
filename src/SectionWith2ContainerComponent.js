@@ -1,5 +1,5 @@
 import './styles/container.css';
-import ButtonComponent from './ButtonComponent';
+import Button from './components/common/button.js';
 import homeImage01 from './images/home-image-01.png';
 
 
@@ -10,7 +10,7 @@ function SectionWith2ContainerComponent(props){
                 <h1>
                     <span>KMMRCE </span>is an enterprise level digital platform that provides a turnkey solution to online retailing.
                 </h1>
-                <ButtonComponent name="Request Demo &emsp;>" className="green"/>
+                <Button name="Request Demo &emsp;>" className="green"/>
             </div>
             <div className="right-container">
                 <img src={homeImage01} className="speaker" alt=""/>

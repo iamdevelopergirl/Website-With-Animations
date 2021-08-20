@@ -2,7 +2,7 @@ import './styles/container.css';
 import standard from './images/standard.svg';
 import professional from './images/professional.svg';
 import enterprise from './images/enterprise.svg';
-import ButtonComponent from './ButtonComponent';
+import Button from './components/common/button.js';
 import tick from './images/tick-image.svg';
 import nil from './images/nil.svg';
 
@@ -77,10 +77,10 @@ let bodyElements = [
 ]
 
 function getTableBody(){
-    let elemet = bodyElements.map(object => {
+    let elemet = bodyElements.map((object, index) => {
         let divElement;
         if(object["p"][1] === "topic"){
-           divElement = <div className="row">
+           divElement = <div className="row" key={index}>
                <div className="item">
                    <h4>{object["p"][0]}</h4>
                </div>
@@ -110,7 +110,7 @@ function getTableBody(){
         else{
             img3Element = <img src={nil} alt=""/>
         }
-        divElement = <div className="row">
+        divElement = <div className="row" key={index}>
                 <div className="item">
                     {pElement}
                 </div>
@@ -147,17 +147,17 @@ function TableComponent(){
                     <div className="item"> 
                           <img src={standard} alt=""/>
                           <p>Standard</p>
-                          <ButtonComponent name="Request Demo &emsp;>" className="black"/>
+                          <Button name="Request Demo &emsp;>" className="black"/>
                     </div>
                     <div className="item"> 
                           <img src={professional} alt=""/>
                           <p>Professional</p>
-                          <ButtonComponent name="Request Demo &emsp;>" className="black"/>
+                          <Button name="Request Demo &emsp;>" className="black"/>
                     </div>
                     <div className="item"> 
                           <img src={enterprise} alt=""/>
                           <p>Enterprise</p>
-                          <ButtonComponent name="Request Demo &emsp;>" className="black"/>
+                          <Button name="Request Demo &emsp;>" className="black"/>
                     </div>
                 </div>
                 {getTableBody()}
@@ -167,17 +167,17 @@ function TableComponent(){
                     <div className="item"> 
                           <div className="spacer"/>
                           <p>% Transaction</p>
-                          <ButtonComponent name="Request Demo &emsp;>" className="black"/>
+                          <Button name="Request Demo &emsp;>" className="black"/>
                     </div>
                     <div className="item"> 
                             <div className="spacer"/>
                           <p>$1,500/month</p>
-                          <ButtonComponent name="Request Demo &emsp;>" className="black"/>
+                          <Button name="Request Demo &emsp;>" className="black"/>
                     </div>
                     <div className="item"> 
                           <div className="spacer"/>
                           <p>$2,500/month</p>
-                          <ButtonComponent name="Request Demo &emsp;>" className="black"/>
+                          <Button name="Request Demo &emsp;>" className="black"/>
                     </div>
                 </div>
             </div>
